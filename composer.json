@@ -1,0 +1,25 @@
+{
+    "name": "aldrapay/aldrapay-api-php",
+    "description" : "Aldrapay PHP API library",
+    "type":"library",
+    "keywords": [
+      "aldrapay",
+      "payment processing",
+      "api"
+    ],
+    "license" : "MIT",
+    "authors": [
+      { "name" : "Aldrapay",
+        "email": "techteam@aldrapay.com"
+      }
+    ],
+    "require" : {
+        "php" : ">= 5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+     "psr-4": { "Aldrapay\\" : "lib/Aldrapay" }
+    }
+}
